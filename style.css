@@ -1,58 +1,59 @@
-@charset "UTF-8";
-.body{
-    width:100%;
+.wrapper{
+    width: 400px;
+    margin:auto;
 }
-
 .header{
     width:400px;
     height:100px;
     background-color: #141f40;
 }
-.left{
+.main{
+    width:400px;
+    height:250px;
+}
+.green{
     width:150px;
     height:250px;
     background-color: #80bfa8;
     float:left;
 }
-    
 .right{
-    width: 250px;
-    height:250px;
-    float:left;
-}
-.right1{
     width:250px;
     float:left;
 }
-.top{
+.right-top{
+    width:150px;
+    float:left;
+}
+.yellow{
     width:150px;
     height:50px;
     background-color: #dbd400;
 }
-.top-center{
+.blue{
     width:150px;
     height:100px;
     background-color: #0093b7;
 }
-.top-right{
+.neibee{
     width:100px;
     height:150px;
     background-color: #ff9e6b;
     float:left;
 }
-.right-under{
-    width:250px;
+.red{
+    width: 250px;
     height:100px;
     background-color: #8c2727;
-    float:left;
 }
 .footer{
     width:400px;
     height:100px;
     background-color: #d98d30;
 }
-.clearfix:after {
-	content: "";
-	display: block;
-	clear: both;
-}
+/* clearfix用 */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
