@@ -1,5 +1,5 @@
 @media screen and (max-width:767px){
-   .header{
+    .header{
        width:300px;
        height:100px;
    }
@@ -29,10 +29,6 @@
    }
 }
 @media screen and (max-width:479px){
-    .wrapper{
-        float:none;
-        width:150px;
-    }
     .header{
         width:150px;
         height:100px;
@@ -43,7 +39,6 @@
         height:100px;
     }
     .neibee{
-        float:none;
         width:150px;
         height:100px;
     }
